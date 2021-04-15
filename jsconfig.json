@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"~":["./src/*"],
+			"@store": ["./src/store/store.js"],
+			"@comp": ["./src/components/*"],
+		}
+	},
+	"exclude": ["node_modules", "dist"]
+}

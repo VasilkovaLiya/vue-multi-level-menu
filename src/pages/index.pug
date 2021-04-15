@@ -1,0 +1,13 @@
+extends ../layouts/layout-default
+
+block vars
+	-
+		const page = {
+			title: 'Main-page'
+		};
+
+block main
+	include ../layouts/_header
+	.main-content
+		h1 Пример многоуровневого меню
+		<appmenu baseurl="someurl"/>
